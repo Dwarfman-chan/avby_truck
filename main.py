@@ -1,10 +1,11 @@
-from freightcars import freightpage
 import asyncio
 import aiohttp
 import time 
 from bs4 import BeautifulSoup
 import pandas as pd
 from apiasync import asyncapi
+from freightcars import freightpage
+
 
 async def get(url, session):
 
